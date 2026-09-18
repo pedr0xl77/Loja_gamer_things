@@ -7,7 +7,7 @@ from funcoens import Produto,validacao_universal,listar_produtos,editar_produto,
 #cursor.close() #fecha o cursor do banco de dados
 #cursor.lastrowid #pega o id do último dado inserido no banco de dados
 #cursor.execute(comando, (valor,)) #executa o comando no banco de dados
-#%s #parâmetro para valores no banco de dados
+
 
 def menu():
     while True:

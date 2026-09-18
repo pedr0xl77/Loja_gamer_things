@@ -53,7 +53,7 @@ class Produto:
         try:
             cursor.execute(comando_inserir, (self.nome, self.preco, self.estoque, id_categoria, id_marca))
             banco.commit()
-            print("produto cadastrado com sucesso?")
+            print("produto cadastrado com sucesso")
         except mysql.connector.errors.IntegrityError as ErroDuplicidade:
 
             if ErroDuplicidade.errno == 1062:
