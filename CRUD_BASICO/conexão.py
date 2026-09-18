@@ -12,7 +12,6 @@ def conectar():
         )
         
         if banco.is_connected():
-            print("Conexão ao MySQL realizada com sucesso!")
             return banco
 
     except Error as e:
